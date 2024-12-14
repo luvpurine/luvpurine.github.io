@@ -1,1 +1,457 @@
+*{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: altehaas;
+    src: url(AlteHaasGroteskBold.ttf);
+  }
 
+  @font-face {
+    font-family: stretch;
+    src: url(StretchPro.otf);
+  }
+
+@font-face{
+    font-family: pixel;
+    src: url(thatthatnewpixelfamilytest-square.otf);
+}
+nav{
+
+    padding: 25px;
+    text-align: center;
+
+}
+
+
+#home{
+    text-decoration: none;
+    
+    color:black;
+    font-family: altehaas;
+}
+
+#testbutt{
+    text-decoration: none;
+    
+  
+    color:black;
+    font-family: altehaas;
+}
+
+#resbutt{
+    text-decoration: none;
+    
+    
+    color:black;
+    font-family: altehaas;
+}
+
+#abtbutt{
+    text-decoration: none;
+    
+    color:black;
+    font-family: altehaas;
+}
+
+body{
+    padding: 35px;
+}
+
+#ldt{
+    text-align: center;
+    line-height: 490px;
+    font-size: 100px;
+    display: inline;
+    font-family: altehaas;
+    background-color: #ffffff;
+}
+#ldta{
+    text-align: center;
+    line-height: 490px;
+    font-size: 100px;
+    display: inline;
+    font-family: pixel;
+    
+    color: white;
+    background-color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 
+
+}
+
+.bene{
+    display: inline;
+   
+    font-size: 30px;
+    font-family: pixel;
+    max-width: 30px;
+}
+
+.benif{
+    display: inline-block;
+    
+    font-size: 18px;
+    font-family: altehaas;
+    max-width: 200px;
+    text-align: center;
+ 
+
+}
+
+
+
+
+#home:hover{
+    color: rgb(255, 163, 198);
+}
+
+#testbutt:hover{
+    color: rgb(255, 235, 108);
+}
+
+#resbutt:hover{
+    color:rgb(198, 255, 113);
+}
+
+#abtbutt:hover{
+    color:rgb(115, 221, 253);
+}
+
+#benefits{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footlink{
+    margin-left: 315px;
+    text-decoration: none;
+    color:black;
+    font-family: altehaas;
+}
+
+footer{
+    padding: 25px;
+}
+
+.testlnk{
+    border-radius: 10px;
+    border: 3px solid;
+    display:inline-block;
+    height: 400px;
+    width: 670px;
+    text-align: center;
+    padding: 20px;
+    font-family: pixel;
+    font-size: 200%;
+
+}
+
+.par{
+    font-size: 130px;
+    font-family: altehaas;
+    
+    text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 
+    
+}
+
+#yel{
+    color: rgb(255, 255, 164);
+}
+
+#gr{
+    color:rgb(187, 255, 155);
+}
+
+#bl{
+    color:rgb(175, 242, 255);
+}
+
+.jungstart{
+    padding: 10%;
+    text-align: center;
+  
+    font-family: altehaas;
+}
+
+.jungquiz{
+    padding: 10%;
+    text-align: center;
+   
+    font-family: altehaas;
+}
+
+.enneaquiz{
+    padding: 10%;
+    text-align: center;
+}
+
+.enneastart{
+    padding: 10%;
+    text-align: center;
+}
+
+.tempquiz{
+    padding: 10%;
+    text-align: center;
+}
+
+.tempstart{
+    padding: 10%;
+    text-align: center;
+} 
+
+footer{
+    text-align: center;
+}
+
+#citation{
+    background-color: rgb(229, 255, 135);
+    padding: 10%;
+    text-align: right;
+
+}
+
+#selftype{
+    background-color: rgb(102, 99, 255);
+    padding: 10%;
+}
+
+#hometest{
+    background-color: rgb(102, 99, 255);
+    padding: 10%;
+    text-align: right;
+}
+
+#homesour{
+    padding: 10%;
+    background-color: rgb(69, 162, 2);
+}
+
+.jungchoices{
+    font-family: altehaas;
+    border-radius: 8px;
+    border-width: 2px;
+    border-color: yellow;
+    background-color: rgb(255, 255, 145);
+}
+
+#jungres{
+    display: none;
+}
+
+#enneares{
+    display: none;
+}
+
+#tempres{
+    display: none;
+}
+.close{
+    font-family: pixel;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 1%;
+    width: 80px
+}
+
+.enneachoices{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: altehaas;
+    color: rgb(102, 99, 255);
+    background-color: rgb(225, 230, 255);
+    border-color: rgb(102, 99, 255);
+    border: none;
+    border-radius: 20px;
+    margin: auto;
+    margin-bottom: 2rem;
+    width: 500px;
+    height: 5rem;
+}
+
+.enneachoices:hover{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: altehaas;
+    background-color: rgb(102, 99, 255);
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: auto;
+    margin-bottom: 2rem;
+    width: 500px;
+    height:5rem;
+}
+
+#enneastart{
+    background-color: rgb(102, 99, 255);
+    color: white;
+    font-family: altehaas;
+    border-radius: 20px;
+    border: none;
+    height: 45px;
+    width: 140px
+}
+
+.ennearestart{
+    background-color: rgb(102, 99, 255);
+    color: white;
+    font-family: altehaas;
+    border-radius: 20px;
+    border: none;
+    height: 45px;
+    width: 140px
+}
+#enneaother{
+    background-color: rgb(102, 99, 255);
+    color: white;
+    font-family: altehaas;
+    border-radius: 20px;
+    border: none;
+    height: 45px;
+    width: 140px
+}
+.jungchoices{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: altehaas;
+    color: rgb(211, 183, 0);
+    background-color: rgb(252, 255, 225);
+    border-color: rgb(211, 183, 0);
+    border: none;
+    border-radius: 20px;
+    margin: auto;
+    margin-bottom: 2rem;
+    width: 500px;
+    height: 5rem;
+}
+
+.jungchoices:hover{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: altehaas;
+    background-color: rgb(255, 234, 41);
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: auto;
+    margin-bottom: 2rem;
+    width: 500px;
+    height:5rem;
+}
+
+#jungstart{
+    background-color: rgb(255, 234, 41);
+    color: white;
+    font-family: altehaas;
+    border-radius: 20px;
+    border: none;
+    height: 45px;
+    width: 140px
+}
+
+.jungrestart{
+    background-color: rgb(255, 234, 41);
+    color: white;
+    font-family: altehaas;
+    border-radius: 20px;
+    border: none;
+    height: 45px;
+    width: 140px
+}
+
+#jungother{
+    background-color: rgb(255, 234, 41);
+    color: white;
+    font-family: altehaas;
+    border-radius: 20px;
+    border: none;
+    height: 45px;
+    width: 140px
+}
+.tempchoices{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: altehaas;
+    color: rgb(38, 102, 8);
+    background-color: rgb(194, 251, 181);
+    border: none;
+    border-radius: 20px;
+    margin: auto;
+    margin-bottom: 2rem;
+    width: 500px;
+    height: 5rem;
+}
+
+.tempchoices:hover{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: altehaas;
+    background-color: rgb(38, 102, 8);
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: auto;
+    margin-bottom: 2rem;
+    width: 500px;
+    height:5rem;
+}
+
+#tempstart{
+    background-color: rgb(38, 102, 8);
+    color: white;
+    font-family: altehaas;
+    border-radius: 20px;
+    border: none;
+    height: 45px;
+    width: 140px
+}
+
+.temprestart{
+    background-color: rgb(38, 102, 8);
+    color: white;
+    font-family: altehaas;
+    border-radius: 20px;
+    border: none;
+    height: 45px;
+    width: 140px
+}
+
+#tempother{
+    background-color: rgb(38, 102, 8);
+    color: white;
+    font-family: altehaas;
+    border-radius: 20px;
+    border: none;
+    height: 45px;
+    width: 140px
+}
+@media screen and (max-width:400px){
+    #ldt{
+        font-size: 50px;
+    }
+    #ldta{
+        font-size: 50px;
+    }
+    #benefits{
+        padding: 0%;
+    }
+    body{
+        padding:0%
+    }
+    
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>letsdotest</title>
+        
+        <link href="style.css" rel="stylesheet"> 
+        <script src="ennea.js" defer></script> 
+    </head>
+    <body>
+      
+        <header>
+            <nav>
+            <a id="home" href="index.html">home</a>
+            <a id="testbutt" href="test.html">tests</a>
+            <a id="resbutt" href="resources.html">resources</a>
+            <a id="abtbutt" href="abt.html">about</a>
+        </nav>
+
+        </header>
+        <!--Start Page-->
+    <div class="enneastart" id="enneahome" style="font-family: altehaas; font-weight: 200;"><h2>Enneagram Subtype Quiz</h2>
+    <p style="font-family: pixel; font-weight: 400;">The Enneagram typology system--originally proposed by Oscar Ichazo--consists of nine different personality types.
+        This system uses information about how one copes to their irrational beliefs in order to
+        determine one's motivations and fixations behind their actions. Each result consists of an enneagram type and its respective subtype.</p>
+        <ul style="font-family: pixel; font-weight: 400;">
+            <li>Answer the questions honestly</li>
+            <li>Think about your first instinct, what you would most likely do</li>
+            <li>Refrain from basing your answers on other people's perceptions or how you want to be</li>
+        </ul>
+
+    <button id="enneastart">start quiz</button>
+    </div>
+
+    <!--Quiz Page-->
+    <div class="enneaquiz" id="enneaquizpage" style= "display: none;">
+        <div id="enneaquiz" class="justify-center flex-column">
+            <h2 id="enneaquestion" style="font-family: altehaas; font-weight: 200;">question</h2>
+            <div id="enneachoices" class="enneachoices" style="font-family: altehaas;">
+                
+            </div>
+        </div>
+    </div>
+
+
+    <!--Results Page-->
+    <div class="ennearesults" id ="ennearesults" style= "display: none;">
+        <div style="text-align: center; font-family: altehaas;">You got:</div>
+        <div id="ennea-image" style="text-align: center;">
+        </div>
+        <div class="enneabutton-container" style="text-align: center;">
+            <button class="ennearestart">
+                <a href="enneagram.html"style="color: white; text-decoration: none;">Restart</a></button>
+            <button id="enneaother">
+                <a href="results.html"style="color: white; text-decoration: none;">Other Results</a></button>
+        </div>
+    </div>
+   </body>

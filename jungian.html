@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>letsdotest</title>
+        
+        <link href="style.css" rel="stylesheet"> 
+        <script src="index.js" defer></script> 
+    </head>
+    <body>
+      
+        <header>
+            <nav>
+            <a id="home" href="index.html">home</a>
+            <a id="testbutt" href="test.html">tests</a>
+            <a id="resbutt" href="resources.html">resources</a>
+            <a id="abtbutt" href="abt.html">about</a>
+        </nav>
+
+        </header>
+        <!--Start Page-->
+    <div class="jungstart" id="junghome"><h2>Jungian Quiz</h2>
+    <p style="font-family: pixel;">The Jungian typology system--originally proposed by psychiatrist Carl Jung--consists of eight different personality types.
+        This system uses attitudes (introversion and extroversion) alongside functions (thinking, feeling, intuition, and sensation) to
+        determine one's internal thought process. Each result consists of a dominant function with a corresponding attitude.
+        pattern.</p>
+        <ul>
+            <li>Answer the questions honestly</li>
+            <li>Think about your first instinct, what you would most likely do</li>
+            <li>Refrain from basing your answers on other people's perceptions or how you want to be</li>
+        </ul>
+
+    <button id="jungstart">start quiz</button>
+    </div>
+
+    <!--Quiz Page-->
+    <div class="jungquiz" id="jungquizpage" style= "display: none;">
+        <div id="jungquiz" class="justify-center flex-column">
+            <h2 id="jungquestion">question</h2>
+            <div id="jungchoices">
+                
+            </div>
+        </div>
+    </div>
+
+
+    <!--Results Page-->
+    <div id="jungresults" style= "display: none;">
+        <div style="text-align: center; font-family: altehaas;">You got:</div>
+        <div id="jung-image" style="text-align: center;">
+        </div>
+        <div class="jungbutton-container"style="text-align: center;">
+            <button class="jungrestart">
+                <a href="jungian.html"style="color: white; text-decoration: none;">Restart</a></button>
+            <button id="jungother">
+                <a href="results.html"style="color: white; text-decoration: none;">Other Results</a></button>
+        </div>
+    </div>
+   </body>
+</html>   

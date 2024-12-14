@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>letsdotest</title>
+        
+        <link href="style.css" rel="stylesheet"> 
+        <script src="temp.js" defer></script> 
+    </head>
+    <body>
+      
+        <header>
+            <nav>
+            <a id="home" href="index.html">home</a>
+            <a id="testbutt" href="test.html">tests</a>
+            <a id="resbutt" href="resources.html">resources</a>
+            <a id="abtbutt" href="abt.html">about</a>
+        </nav>
+
+        </header>
+        <!--Start Page-->
+    <div class="tempstart" id="temphome" style="font-family: altehaas; font-weight: 200;"><h2>Four Temperament Quiz</h2>
+    <p style="font-family: pixel; font-weight: 400;">The Four Temperaments typology system--originally proposed by Greek physician Hippocrates--consists of four different personality types.
+        This system uses one's outward demeanor and behavior to determine their internal motivations and behavior patterns. Each result consists of a temperament.</p>
+        <ul>
+            <li>Answer the questions honestly</li>
+            <li>Think about your first instinct, what you would most likely do</li>
+            <li>Refrain from basing your answers on other people's perceptions or how you want to be</li>
+        </ul>
+
+    <button id="tempstart">start quiz</button>
+    </div>
+
+    <!--Quiz Page-->
+    <div class="tempquiz" id="tempquizpage" style= "display: none;">
+        <div id="tempquiz" class="justify-center flex-column">
+            <h2 id="tempquestion" style="font-family: altehaas; font-weight: 200;">question</h2>
+            <div id="tempchoices" class="tempchoices">
+                
+            </div>
+        </div>
+    </div>
+
+    <!--Results Page-->
+    <div class="tempresults" id ="tempresults" style= "display: none;">
+        <div style="text-align: center; font-family: altehaas;">You got:</div>
+        <div id="temp-image" style="text-align: center;">
+        </div>
+        <div class="tempbutton-container" style="text-align: center;">
+            <button class="temprestart">
+                <a href="temp.html" style="color: white; text-decoration: none;">Restart</a></button>
+            <button id="tempother">
+                <a href="results.html" style="color: white; text-decoration: none;">Other Results</a></button>
+        </div>
+    </div>
+   </body>
