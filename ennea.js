@@ -27,6 +27,7 @@ let spEightScore = 0;
 let soNineScore = 0;
 let sxNineScore = 0;
 let spNineScore = 0;
+let enneaImageUrls;
 
 
 let scores = [soOneScore, sxOneScore, spOneScore, soTwoScore, sxTwoScore, spTwoScore, soThreeScore, sxThreeScore, spThreeScore, soFourScore, sxFourScore, spFourScore,
@@ -922,7 +923,7 @@ function handleChoiceClick(choiceIndex) {
 
   //Function to calculate MBTI type and return image URL 
   function getEnneaImageUrl(enneagramResult) {
-    const enneaImageUrls = {
+    enneaImageUrls = {
         "soOne": "so1.png",
         "sxOne": "sx1.png",
         "spOne": "sp1.png",
