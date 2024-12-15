@@ -8,7 +8,7 @@ let IFScore = 0;
 let ITScore = 0;
 let INScore = 0;
 let ISScore = 0;
-
+let jungImageUrls;
 
 let scores = [EFScore, ETScore, ENScore, ESScore, IFScore, ITScore, INScore, ISScore]
 let scoreNames = ["EF", "ET", "EN", "ES", "IF", "IT", "IN", "IS"]
@@ -435,7 +435,7 @@ document.getElementById('jungstart').addEventListener('click', function() {
 
   //Function to calculate MBTI type and return image URL 
   function getJungImageUrl(jungianResult) {
-    var jungImageUrls = {
+    jungImageUrls = {
         "EF": "EF.PNG",
         "ET": "ET.PNG",
         "ES": "ES.PNG",
