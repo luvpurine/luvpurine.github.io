@@ -435,7 +435,7 @@ document.getElementById('jungstart').addEventListener('click', function() {
 
   //Function to calculate MBTI type and return image URL 
   function getJungImageUrl(jungianResult) {
-    const jungImageUrls = {
+    var jungImageUrls = {
         "EF": "EF.PNG",
         "ET": "ET.PNG",
         "ES": "ES.PNG",
