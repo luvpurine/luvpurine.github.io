@@ -364,10 +364,10 @@ document.getElementById('tempstart').addEventListener('click', function() {
     //Function to calculate MBTI type and return image URL 
   function getTempImageUrl(temperamentResult) {
     tempImageUrls = {
-        "sanguine": "sanguine.png",
-        "choleric": "choleric.png",
-        "phlegmatic": "phlegmatic.png",
-        "melancholic": "melancholic.png"
+        "sanguine": "sanguine.PNG",
+        "choleric": "choleric.PNG",
+        "phlegmatic": "phlegmatic.PNG",
+        "melancholic": "melancholic.PNG"
         
     
     };
