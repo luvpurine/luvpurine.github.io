@@ -4,6 +4,7 @@ let sangScore = 0;
 let cholScore = 0;
 let phlegmScore = 0;
 let melScore = 0;
+let tempImageUrls;
 
 let scores = [sangScore, cholScore, phlegmScore, melScore]
 let scoreNames = ["sanguine", "choleric", "phlegmatic", "melancholic"]
@@ -362,7 +363,7 @@ document.getElementById('tempstart').addEventListener('click', function() {
 
     //Function to calculate MBTI type and return image URL 
   function getTempImageUrl(temperamentResult) {
-    const tempImageUrls = {
+    tempImageUrls = {
         "sanguine": "sanguine.png",
         "choleric": "choleric.png",
         "phlegmatic": "phlegmatic.png",
