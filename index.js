@@ -28,7 +28,7 @@ function displayQuiz() {
             ]
         },
         {
-            question: "How do you give structure to the aspects of the world you deem as unreasonable?",
+            question: "How do you judge external situations you consider unreasonable?",
             choices: ["By using direct evidence & reasoning based on external standards", "By being harmonious with others since it aligns with the world's ideals"],
             weights: [
                 {ETScore: +1, EFScore: 0 }, // Weight for first choice
@@ -44,7 +44,7 @@ function displayQuiz() {
             ]
         },
         {
-            question: "How do you base your reasoning on internal standards?",
+            question: "How do you base your thoughts on your own standards?",
             choices: ["By creating my own logical rules for myself", "By aligning my actions with my own ideal"],
             weights: [
                 {ITScore: +1, IFScore: 0 }, // Weight for first choice
@@ -52,7 +52,7 @@ function displayQuiz() {
             ]
         },
         {
-            question: "How do you express yourself through your actions and life?",
+            question: "How do you express yourself without words?",
             choices: ["By placing my focus on my internal physical senses", "By perceiving all events as part of an abstract pattern"],
             weights: [
                 {ISScore: +1, INScore: 0 }, // Weight for first choice
@@ -124,7 +124,7 @@ function displayQuiz() {
             ]
         },
         {
-            question: "What do you find yourself doing in terms of sensation?",
+            question: "What do you find yourself doing in terms of physical senses?",
             choices: ["Gotta go with my impulse from the real world", "Maybe I should stick to what my mind and body are telling me to do"],
             weights: [
                 {ESScore: +1, ISScore: 0 }, // Weight for first choice
