@@ -221,11 +221,13 @@ footer{
     background-color: rgb(102, 99, 255);
     padding: 10%;
     text-align: right;
+    height: 780px;
 }
 
 #homesour{
     padding: 10%;
     background-color: rgb(69, 162, 2);
+    height: 870px;
 }
 
 .jungchoices{
@@ -470,6 +472,26 @@ footer{
     animation-duration: 2s;
     animation-timeline: view();
     animation-range: entry 0% cover 40%;
+}
+
+#takeATestButton{
+    color: rgb(102, 99, 255); 
+    background-color: azure; 
+    padding: 2%;
+    border-radius: 15px; 
+    width: 200px; 
+    height: 80px; 
+    font-size: 30px; 
+    font-size: altehaas; 
+    border: none;
+}
+
+#takeATestButton:hover{
+    background-color: rgb(102, 99, 255); 
+    color: azure; 
+    cursor: pointer;
+    border-width: 20px;
+    border-color: azure;
 }
 @media screen and (max-width:400px){
     #ldt{
