@@ -464,6 +464,13 @@ footer{
     from{transform: translateX(-100%);}
     to{transform: translateX(0px);}
 }
+
+.benefits{
+    animation-name: slideLeft;
+    animation-duration: 2s;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
 @media screen and (max-width:400px){
     #ldt{
         font-size: 50px;
