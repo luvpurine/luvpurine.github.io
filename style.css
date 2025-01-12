@@ -25,36 +25,48 @@ nav{
 
 #home{
     text-decoration: none;
-    
+    background-color: rgb(255, 163, 198);
     color:black;
     font-family: altehaas;
+    padding: 0.75%;
+    border-radius: 10px;
+
 }
 
 #testbutt{
     text-decoration: none;
     
-  
+    background-color: rgb(255, 235, 108);
     color:black;
     font-family: altehaas;
+    padding: 0.75%;
+    border-radius: 10px;
 }
 
 #resbutt{
     text-decoration: none;
     
-    
+    background-color: rgb(198, 255, 113);
     color:black;
     font-family: altehaas;
+    padding: 0.75%;
+    border-radius: 10px;
 }
 
 #abtbutt{
     text-decoration: none;
-    
+    background-color:rgb(115, 221, 253);
     color:black;
     font-family: altehaas;
+    padding: 0.75%;
+    border-radius: 10px;
 }
 
 body{
-    padding: 35px;
+    padding: 1%;
+    width: 97vw;
+    display: flex;
+    flex-direction: column;
 }
 
 #ldt{
@@ -63,7 +75,7 @@ body{
     font-size: 100px;
     display: inline;
     font-family: altehaas;
-    color: #ffffff;
+    color: white;
 }
 #ldta{
     text-align: center;
@@ -72,8 +84,8 @@ body{
     display: inline;
     font-family: pixel;
     
-    color: white;
-    background-color: black;
+    color: rgb(0, 0, 0);
+    
     text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 
 
 }
@@ -102,18 +114,22 @@ body{
 
 #home:hover{
     color: rgb(255, 163, 198);
+    background-color: #ffffff;
 }
 
 #testbutt:hover{
     color: rgb(255, 235, 108);
+    background-color: #ffffff;
 }
 
 #resbutt:hover{
     color:rgb(198, 255, 113);
+    background-color: #ffffff;
 }
 
 #abtbutt:hover{
     color:rgb(115, 221, 253);
+    background-color: #ffffff;
 }
 
 #benefits{
@@ -124,14 +140,16 @@ body{
 }
 
 .footlink{
-    margin-left: 315px;
+    display: flex;
     text-decoration: none;
     color:black;
     font-family: altehaas;
+    justify-content: space-around;
 }
 
 footer{
-    padding: 25px;
+    text-align: center;
+    text-decoration: none;
 }
 
 .testlnk{
@@ -201,9 +219,7 @@ footer{
     text-align: center;
 } 
 
-footer{
-    text-align: center;
-}
+
 
 #citation{
     background-color: rgb(229, 255, 135);
@@ -442,6 +458,7 @@ footer{
     height: 45px;
     width: 140px
 }
+
 #greenduo{
     animation-name: slideLeft;
     animation-duration: 2s;
@@ -456,6 +473,8 @@ footer{
     animation-timeline: view();
     animation-range: entry 0% cover 40%;
     color: black;
+    margin-left: 50%;  
+    background-color: rgb(255, 75, 207);
 }
 @keyframes slideLeft{
     from{transform: translateX(100%);}
@@ -493,18 +512,481 @@ footer{
     border-width: 20px;
     border-color: azure;
 }
-@media screen and (max-width:400px){
+
+#abtsect{
+    background-color: black; 
+    color: white; 
+    height: 900px; 
+    width: 97vw;
+    padding: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    gap: 0em;
+}
+
+#abttxt{
+    font-family: pixel; 
+    font-size: 60px;
+}
+
+#abtbig{
+    font-family: stretch; 
+    font-size: 200px; 
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    border: 0;
+}
+
+#testheading{
+    color: white;
+    font-family: pixel; 
+    font-size: 100px;
+}
+
+#allresults{
+    text-align: left; 
+    color: white; 
+    background-color: blue; 
+    font-family: altehaas; 
+    position: relative; 
+    bottom: 70%; 
+    height: 50px;
+}
+
+#ughbunny{
+    height: 400px; 
+    position: relative; 
+    bottom: 70%; 
+    left: 50%
+}
+
+#luckystick{
+    height: 350px; 
+    position: relative; 
+    bottom: 50%; 
+    left: 0%; 
+    transform: rotateZ(10deg);
+}
+
+#testsect1{
+    background-color: black; 
+    padding: 5%; 
+    padding-top: 1%; 
+    padding-bottom: 1%; 
+    height: 600px;  
+}
+
+#myp{
+    font-family: pixel; 
+    margin-left:60%; 
+    font-size: 55px; 
+    border-radius: 15px; 
+    border-color: rgb(113, 255, 97);
+    border-width: 100px; 
+    color: white;
+}
+
+#nah{
+    height: 170px; 
+    position: relative; 
+    bottom: 105%; 
+    left: 20%; 
+    transform: rotateZ(-10deg);
+}
+
+#sillybun{
+    width: 500px; 
+    position: relative; 
+    bottom: 70%; 
+    right: 10%; 
+    object-fit: contain; 
+    float: right;
+}
+
+#homesect1{
+    height: 650px; 
+    background-color: rgb(0, 0, 0);
+}
+
+#cool{
+    height: 350px; 
+    position: relative; 
+    bottom: 40%; 
+    right: 5%;
+    transform: rotateZ(-15deg);
+}
+
+#blsect{
+    margin-left: 7%;
+}
+
+#yelsect{
+    
+    position: relative; 
+    left: 40%;
+}
+
+#grsect{
+    margin-left: 75%;
+}
+
+#bene1{
+    margin-left: 12%;
+}
+
+#bene2{
+    margin-left: 46%;
+}
+
+#bene3{
+    margin-left: 80%;
+}
+
+#fire{
+    height: 500px; 
+    position: relative; 
+    float: left; 
+    left: 15%; 
+    bottom: 150%;
+}
+
+#notreal{
+    height: 450px; 
+    position: relative; 
+    float: left; 
+    right: 0%; 
+    bottom: 75%; 
+    transform: rotateZ(-15deg);
+}
+
+#htest1{
+    font-family: pixel; 
+    font-size: 100px; 
+    color: rgb(255, 255, 255);
+}
+
+#htest2{
+    font-family: altehaas; 
+    font-size: 80px; 
+    margin-top: -8%; 
+    color: rgb(255, 255, 255);
+}
+
+#homesour1{
+    position: relative; 
+    bottom: 5%;
+}
+
+#typologybutt{
+    font-family: pixel; 
+    font-size: 80px; 
+    text-align: center; 
+    border: none; 
+    background-color: white; 
+    color: rgb(69, 162, 2); 
+    border-radius: 8px; 
+    margin-top: -3%; 
+    text-decoration: none;
+}
+
+#transso2{
+    height: 580px; 
+    position: relative; 
+    bottom: -17%; 
+    right: 25%; 
+    float: right; 
+    overflow: hidden; 
+    transform: rotateZ(10deg);
+}
+
+#transsx1{
+    height: 580px; 
+    position: relative; 
+    bottom: 10%; 
+    left: 30%; 
+    float: right; 
+    overflow: hidden; 
+    transform: rotateZ(-10deg);
+}
+
+#resinfo{
+    font-family: altehaas; 
+    font-size: 25px; 
+    max-width: 60%; 
+    margin-top: -4%; 
+    color: white;
+}
+
+#reshead1{
+    font-family: altehaas; 
+    font-size: 75px; 
+    color: white;
+}
+
+#reshead2{
+    font-family: pixel; 
+    font-size: 100px; 
+    color: white; 
+    margin-top: -5%;
+}
+@media screen and (max-width: 431px){
+    #body{
+        width: 97%;
+        padding: 3px;
+        
+    }
+    #homesect1{
+        height: 555px;
+    }
     #ldt{
-        font-size: 50px;
+        font-size: 3.95rem;
+        margin-bottom: 1%;
+        position: relative;
+        bottom: 15%;
+    
     }
     #ldta{
-        font-size: 50px;
+        font-size: 3.95rem;
+        position: relative;
+        bottom: 15%;
+    }
+    #myp{
+        font-size: 2.75rem;
+        position: relative;
+        bottom: 20%;
+        
+    }
+    #nah{
+        height: 100px;
+        position: absolute;
+        bottom: 75%;
+    }
+    #sillybun{
+        height: 220px;
+        position: relative;
+        left: 1%;
+        bottom: 88%;
+        width: auto;
+    }
+    #cool{
+        height: 210px;
+        bottom: 107%;
     }
     #benefits{
-        padding: 0%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
-    body{
-        padding:0%
+    #blsect{
+        
+        margin-left: 0%;
+
     }
     
+    #yelsect{
+       
+        position: relative; 
+        left: 0%;
+    }
+    
+    #grsect{
+      
+        margin-left: 0%;
+    }
+    .bene{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 200px;
+
+    }
+    #bene1{
+        margin-left: 10%;
+    
+
+    }
+    
+    #bene2{
+        margin-left: 10%;
+    }
+    
+    #bene3{
+        margin-left: 10%;
+    }
+
+    #abttxt{ 
+        font-size: 30px;
+    }
+    #abtbig{
+        font-size: 4rem;
+    }
+    #abtsect{
+        height: 580px;
+    }
+    #testheading{
+        font-size: 3rem;
+    }
+    #ughbunny{
+        height: 200px; 
+        position: absolute;
+        bottom: 35%;
+        left: 20%;
+    }
+    #luckystick{
+        height: 175px;
+        position: absolute;
+        bottom: 23%;
+        left: 3%;
+
+    }
+    .testlnk{
+        font-size: 150%;
+        height: 200px;
+        width: 300px;
+    }
+    #allresults{
+        position: absolute;
+        top: 47%;
+    }
+    #testsect1{
+        height: 450px;
+    }
+    #solopink{
+        margin-left: 0%;
+        animation: none;
+    }
+    #greenduo{
+        animation: none;
+    }
+    #testsect2{
+        text-align: center;
+    }
+    #fire{
+        height: auto;
+        bottom: 30%;
+        width: 300px;
+        
+    }
+    #notreal{
+        height: 225px;
+        top: -70%;
+        right: 24%;
+    }
+    #htest2{
+        margin-top: -32%;
+    }
+    #homesour1{
+        bottom: 75%;
+        right: 5%;
+
+    }
+    #typologybutt{
+        font-size: 65px;
+    }
+
+    #transso2{
+        height: 330px; 
+        position: relative; 
+        bottom: -57%; 
+        right: 15%; 
+    }
+    
+    #transsx1{
+        height: 330px; 
+        position: relative; 
+        bottom: 40%; 
+        left: 12%; 
+        transform: rotateZ(-5deg);
+    }
+
+    .jungchoices{
+        width: 250px;
+        font-size: 0.75rem;
+        height: 5.2rem;
+    }
+
+    #jungimg{
+        width: 94vw;
+    }
+
+    .enneachoices{
+        width: 250px;
+        font-size: 0.75rem;
+        height: 5.2rem;
+    }
+
+    #enneaimg{
+        width: 94vw;
+    }
+
+    .tempchoices{
+        width: 250px;
+        font-size: 0.75rem;
+        height: 5.2rem;
+    }
+
+    #tempimg{
+        width: 94vw;
+    }
+
+    .jungchoices:hover{
+        width: 250px;
+        font-size: 0.75rem;
+        height: 5.2rem;
+    }
+
+    .enneachoices:hover{
+        width: 250px;
+        font-size: 0.75rem;
+        height: 5.2rem;
+    }
+
+    .tempchoices:hover{
+        width: 250px;
+        font-size: 0.75rem;
+        height: 5.2rem;
+    }
+
+    #resinfo{
+        font-family: altehaas; 
+        font-size: 20px; 
+        max-width: 70%; 
+        margin-top: -4%; 
+        color: white;
+    }
+
+    #reshead1{
+        font-family: altehaas; 
+        font-size: 65px; 
+        color: white;
+    }
+    
+    #reshead2{
+        font-family: pixel; 
+        font-size: 80px; 
+        color: white; 
+        margin-top: -10%;
+    }
+}
+
+@media screen and (min-height: 800px){
+    #ughbunny{
+        height: 200px; 
+        position: absolute;
+        bottom: 60%;
+        left: 20%;
+    }
+    #luckystick{
+        height: 175px;
+        position: absolute;
+        bottom: 52%;
+        left: 3%;
+
+    }
+    #allresults{
+        position: absolute;
+        top: 50%;
+    }
 }

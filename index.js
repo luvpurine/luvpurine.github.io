@@ -8,7 +8,7 @@ let IFScore = 0;
 let ITScore = 0;
 let INScore = 0;
 let ISScore = 0;
-let jungImageUrls;
+
 
 let scores = [EFScore, ETScore, ENScore, ESScore, IFScore, ITScore, INScore, ISScore]
 let scoreNames = ["EF", "ET", "EN", "ES", "IF", "IT", "IN", "IS"]
@@ -28,7 +28,7 @@ function displayQuiz() {
             ]
         },
         {
-            question: "How do you judge external situations you consider unreasonable?",
+            question: "How do you give structure to the aspects of the world you deem as unreasonable?",
             choices: ["By using direct evidence & reasoning based on external standards", "By being harmonious with others since it aligns with the world's ideals"],
             weights: [
                 {ETScore: +1, EFScore: 0 }, // Weight for first choice
@@ -44,7 +44,7 @@ function displayQuiz() {
             ]
         },
         {
-            question: "How do you base your thoughts on your own standards?",
+            question: "How do you base your reasoning on internal standards?",
             choices: ["By creating my own logical rules for myself", "By aligning my actions with my own ideal"],
             weights: [
                 {ITScore: +1, IFScore: 0 }, // Weight for first choice
@@ -52,7 +52,7 @@ function displayQuiz() {
             ]
         },
         {
-            question: "How do you express yourself without words?",
+            question: "How do you express yourself through your actions and life?",
             choices: ["By placing my focus on my internal physical senses", "By perceiving all events as part of an abstract pattern"],
             weights: [
                 {ISScore: +1, INScore: 0 }, // Weight for first choice
@@ -124,7 +124,7 @@ function displayQuiz() {
             ]
         },
         {
-            question: "What do you find yourself doing in terms of physical senses?",
+            question: "What do you find yourself doing in terms of sensation?",
             choices: ["Gotta go with my impulse from the real world", "Maybe I should stick to what my mind and body are telling me to do"],
             weights: [
                 {ESScore: +1, ISScore: 0 }, // Weight for first choice
@@ -435,7 +435,7 @@ document.getElementById('jungstart').addEventListener('click', function() {
 
   //Function to calculate MBTI type and return image URL 
   function getJungImageUrl(jungianResult) {
-    jungImageUrls = {
+    const jungImageUrls = {
         "EF": "EF.PNG",
         "ET": "ET.PNG",
         "ES": "ES.PNG",
@@ -456,6 +456,8 @@ function displayImage(jungianResult) {
     const jungImageContainer = document.getElementById('jung-image');
     const imageElement = document.createElement('img');
     imageElement.src = imageURL;
+    imageElement.id = 'jungimg';
+
 
     jungImageContainer.appendChild(imageElement);
 

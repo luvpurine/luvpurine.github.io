@@ -27,7 +27,6 @@ let spEightScore = 0;
 let soNineScore = 0;
 let sxNineScore = 0;
 let spNineScore = 0;
-let enneaImageUrls;
 
 
 let scores = [soOneScore, sxOneScore, spOneScore, soTwoScore, sxTwoScore, spTwoScore, soThreeScore, sxThreeScore, spThreeScore, soFourScore, sxFourScore, spFourScore,
@@ -49,7 +48,7 @@ function displayQuiz() {
             ]
         },
         {
-            question: "How do you deal with your embarrassment?",
+            question: "How do you deal with your shame?",
             choices: ["Through the positive attention of others", "By creating an ideal self to make me feel better", "I look for something or someone to help me find what's missing in myself"],
             weights: [
                 {soTwoScore: +1, sxTwoScore: +1, spTwoScore: +1, soThreeScore: 0, sxThreeScore: 0, spThreeScore: 0, soFourScore: 0, sxFourScore: 0, spFourScore: 0}, // Weight for first choice
@@ -112,7 +111,7 @@ function displayQuiz() {
             ]
         },
         {
-            question: "How do you remain useful to benefit yourself?",
+            question: "How do you remain useful for survival?",
             choices: ["By creating an atmosphere of security with money and protection", "By surviving without relying on external influence", "By improving myself"],
             weights: [
                 {spThreeScore: +2}, // Weight for first choice
@@ -139,7 +138,7 @@ function displayQuiz() {
             ]
         },
         {
-            question: "How do you remain pleasant to benefit yourself?",
+            question: "How do you remain pleasant for survival?",
             choices: ["By giving to others to receive", "By creating relationships for my benefit", "By staying in my comfort zone"],
             weights: [
                 {spTwoScore: +2, Score: 0, Score: 0}, // Weight for first choice
@@ -166,7 +165,7 @@ function displayQuiz() {
             ]
         },
         {
-            question: "How do you remain authentic to benefit yourself?",
+            question: "How do you remain authentic for survival?",
             choices: ["By being demanding towards myself to suffer", "By showing my warmth to gain allies", "By always pursuing my needs no matter what"],
             weights: [
                 {spFourScore: +2}, // Weight for first choice
@@ -193,7 +192,7 @@ function displayQuiz() {
             ]
         },
         {
-            question: "To benefit yourself, which is closest to you moving closer to people?",
+            question: "In survival, which is closest to you moving closer to people?",
             choices: ["I act childish and loving for support", "I act friendly for security and associate with stronger people", "I strive for perfection to be loved"],
             weights: [
                 {spTwoScore: +2}, // Weight for first choice
@@ -220,7 +219,7 @@ function displayQuiz() {
             ]
         },
         {
-            question: "To benefit yourself, which is closest to you being disengaged?",
+            question: "In survival, which is closest to you being disengaged?",
             choices: ["I hide my suffering from others", "I withdraw from the unsafe world", "I stick to routine to avoid change"],
             weights: [
                 {spFourScore: +2}, // Weight for first choice
@@ -247,7 +246,7 @@ function displayQuiz() {
             ]
         },
         {
-            question: "To benefit yourself, which is closest to you feeling important?",
+            question: "In survival, which is closest to you feeling important?",
             choices: ["I become good at what I do and overall a good-natured person", "I try to surround myself with people who make me feel important", "I focus on myself for instant gratification"],
             weights: [
                 {spThreeScore: +2}, // Weight for first choice
@@ -311,7 +310,7 @@ function displayQuiz() {
         },
         {
             question: "How do you gain stimulating and desirable experiences?",
-            choices: ["By acting as a protector to justify my wrongdoings", "By getting love through the other (partner)", "By going towards my wishes and desires directly"],
+            choices: ["By acting as a protector to justify oneself", "By getting love through the other (partner)", "By going towards my wishes and desires directly"],
             weights: [
                 {soEightScore: +3}, // Weight for first choice
                 {sxEightScore: +3}, // Weight for second choice
@@ -320,7 +319,7 @@ function displayQuiz() {
         },
         {
             question: "How do you avoid reality?",
-            choices: ["By focusinf my beinf towards a social group I'm in", "By forming communion with another", "By performing ordinary, routine activities"],
+            choices: ["By becoming one with a group instead", "By forming communion with another", "By performing ordinary, routine activities"],
             weights: [
                 {soNineScore: +3}, // Weight for first choice
                 {sxNineScore: +3}, // Weight for second choice
@@ -923,7 +922,7 @@ function handleChoiceClick(choiceIndex) {
 
   //Function to calculate MBTI type and return image URL 
   function getEnneaImageUrl(enneagramResult) {
-    enneaImageUrls = {
+    const enneaImageUrls = {
         "soOne": "so1.PNG",
         "sxOne": "sx1.PNG",
         "spOne": "sp1.PNG",
@@ -963,6 +962,7 @@ function displayImage(enneagramResult) {
     const enneaImageContainer = document.getElementById('ennea-image');
     const imageElement = document.createElement('img');
     imageElement.src = imageURL;
+    imageElement.id = 'enneaimg';
 
     enneaImageContainer.appendChild(imageElement);
 

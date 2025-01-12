@@ -2,10 +2,11 @@
 <html>
     <head>
         <title>letsdotest</title>
-        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link href="style.css" rel="stylesheet"> 
+        <link rel="icon" href="ughbunny.PNG">
     </head>
-    <body>
+    <body style="background-color: black; overflow-x: hidden;">
         
         <header>
             <nav>
@@ -16,39 +17,50 @@
         </nav>
 
         </header>
-        <section style="background-color: black; padding: 5%; padding-top: 1%; padding-bottom: 1%; height: 600px">
-        <h1 style="color: white;  font-family: pixel; font-size: 100px;">personality</h1>
-         <h1 style="color: white; font-family: pixel; font-size: 100px;">tests</h1>   
-         <button style="text-align: right; color: white; background-color: blue; font-family: altehaas;">
-            <a href="results.html"> 
+        <section id="testsect1">
+        <h1 id="testheading">personality</h1>
+        <h1 id="testheading">tests</h1>   
+         <button id="allresults">
+            <a href="results.html" style="text-align: left; text-decoration: none; color: white;"> 
                 all results
             </a>
         </button>
-             <img src="ughbunny.PNG" style="height: 400px; position: relative; bottom: 70%; left: 50%">
-        <img src="nomoreluckysticker.PNG" style="height: 350px; position: relative; bottom: 50%; left: 0%; transform: rotateZ(10deg);">
+        <img src="ughbunny.PNG" id="ughbunny">
+        <img src="nomoreluckysticker.PNG" id="luckystick">
         
-        <img src="loopdeloopsticker.PNG" style="height: 600px; position: relative; top: 50%; left: 50%;  transform: rotateZ(45deg);">
+
         </section>
-        <section style="background-color: black;">
+        <section style="background-color: black;" id="testsect2">
             <a href="jungian.html" style="display: block; margin-left: 0px;" id="greenduo">
-                <div class="testlnk" style="background-color: greenyellow;">Jungian</div><br>
+                <span class="testlnk" style="background-color: greenyellow;">
+                    <div>Jungian</div>
+                    <div>37 Questions</div></span><br>
             </a>
             <a href="enneagram.html" style="display: block; margin-left: 0px;">
-                <div class="testlnk" style="margin-left: 50%; background-color: rgb(255, 75, 207);" id="solopink">Enneagram ( + Subtypes)
+                <span class="testlnk"  id="solopink">
+                    <div>Enneagram ( + Subtypes)</div>
+                    <div>69 Questions</div>
                    
-                </div><br>
+                </span><br>
             </a>
-            <a href="temp.html" style="display: block; margin-left: 0px;" id="greenduo">
-                <div class="testlnk" style="background-color: greenyellow;">Four Temperaments</div>
+            <a href="temp.html" style="display: block; margin-left: 0px;"  id="greenduo">
+                <span class="testlnk" style="background-color: greenyellow;">
+                    <div>Four Temperaments</div>
+                    <div>30 Questions</div>
+                </span>
             </a>
+    
+
         </section>
         <footer>
             <div style="font-family: altehaas; padding-bottom: 25px;">
              <span>&copy;</span> Copyright 2024, letsdotest
             </div>
-            <a class="footlink" href="index.html">Home</a>
-            <a class="footlink" href="priv.html">Privacy</a>
-            <a class="footlink" href="abt.html">About</a>
+            <div class="footlink">
+            <a href="index.html" style="color: white; text-decoration: none;">Home</a>
+            <a href="priv.html" style="color: white; text-decoration: none;">Privacy</a>
+            <a  href="abt.html" style="color: white; text-decoration: none;">About</a>
+            </div>
             </footer>
     </body>
 </html>
