@@ -982,11 +982,23 @@ footer{
         height: 175px;
         position: absolute;
         bottom: 52%;
-        left: 3%;
+        left: 3%;    
 
     }
     #allresults{
         position: absolute;
-        top: 50%;
+        top: 75%;
     }
 }
+
+@media screen and (min-height: 1250px){
+    #ughbunny{
+        height: 400px;
+        bottom: 52%;
+        left: 60%;
+    }
+    #luckystick{
+        left: 66%;
+        height: 350px;
+        bottom: 37%;
+        
