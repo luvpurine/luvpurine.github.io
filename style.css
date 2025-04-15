@@ -971,7 +971,7 @@ footer{
     }
 }
 
-@media screen and (min-height: 800px){
+@media screen and (min-width: 700px){
     #ughbunny{
         height: 400px;
         bottom: 52%;
