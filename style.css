@@ -731,7 +731,7 @@ footer{
     color: white; 
     margin-top: -5%;
 }
-@media screen and (max-width: 431px){
+@media screen and (max-width: 500px){
     #body{
         width: 97%;
         padding: 3px;
