@@ -28,7 +28,7 @@ function displayQuiz() {
             ]
         },
         {
-            question: "How do you give structure to the aspects of the world you deem as unreasonable?",
+            question: "How do you make sense of what's 'unreasonable'?",
             choices: ["By using direct evidence & reasoning based on external standards", "By being harmonious with others since it aligns with the world's ideals"],
             weights: [
                 {ETScore: +1, EFScore: 0 }, // Weight for first choice
@@ -36,16 +36,16 @@ function displayQuiz() {
             ]
         },
         {
-            question: "How do you focus on events and living?",
-            choices: ["By being tuned into my environment", "By searching for advancements and discoveries in this aspect"],
+            question: "How do you focus on life and its outcomes?",
+            choices: ["By being tuned into my environment", "By searching for advancements and discoveries in regarding its future"],
             weights: [
                 {ESScore: +1, ENScore: 0 }, // Weight for first choice
                 {ENScore: +1, ESScore:0 }, // Weight for second choice
             ]
         },
         {
-            question: "How do you base your reasoning on internal standards?",
-            choices: ["By creating my own logical rules for myself", "By aligning my actions with my own ideal"],
+            question: "How do you base your reasoning on your own standards?",
+            choices: ["By creating my own well thought out rules", "By aligning my actions with my ideal"],
             weights: [
                 {ITScore: +1, IFScore: 0 }, // Weight for first choice
                 {IFScore: +1, ITScore:0 }, // Weight for second choice
@@ -117,7 +117,7 @@ function displayQuiz() {
         },
         {
             question: "What do you find yourself doing in terms of emotion?",
-            choices: ["Maintaining the social harmony because that's correct", "Sticking to my own ideals because that's what I feel"],
+            choices: ["Maintaining the social mood because that's correct", "Sticking to my own ideals because that's what I feel"],
             weights: [
                 {EFScore: +1, IFScore: +0 }, // Weight for first choice
                 {IFScore: +1, EFScore: +0 }, // Weight for second choice
@@ -125,7 +125,7 @@ function displayQuiz() {
         },
         {
             question: "What do you find yourself doing in terms of sensation?",
-            choices: ["Gotta go with my impulse from the real world", "Maybe I should stick to what my mind and body are telling me to do"],
+            choices: ["Gotta go with my urges that stem from the world around me", "Maybe I should stick to what my mind and body are telling me to do"],
             weights: [
                 {ESScore: +1, ISScore: 0 }, // Weight for first choice
                 {ISScore: +1, ESScore:0 }, // Weight for second choice
@@ -221,7 +221,7 @@ function displayQuiz() {
         },
         {
             question: "What trap do you tend to fall into?",
-            choices: ["Creating ideas that are disconnected from reality", "Failing to realize the connection between my conclusions and myself"],
+            choices: ["Creating ideas that are disconnected from reality", "Failing to realize the connection between my judgements and myself"],
             weights: [
                 {ITScore: +1, INScore: 0 }, // Weight for first choice
                 {INScore: +1, ITScore:0 }, // Weight for second choice
